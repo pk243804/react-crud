@@ -1,0 +1,94 @@
+/* Page container */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: "Segoe UI", sans-serif;
+  background: #f9fafb;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #4f46e5;
+  outline: none;
+  box-shadow: 0 0 4px rgba(79, 70, 229, 0.3);
+}
+
+/* Submit button */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+/* User list */
+.user-card {
+  background: white;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.user-info {
+  color: #444;
+}
+
+/* Action buttons */
+.actions button {
+  margin-left: 8px;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+.actions button:first-child {
+  background: #10b981;
+}
+
+.actions button:first-child:hover {
+  background: #059669;
+}
+
+.actions button:last-child {
+  background: #ef4444;
+}
+
+.actions button:last-child:hover {
+  background: #dc2626;
+}
